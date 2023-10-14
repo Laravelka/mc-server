@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.59.124.211
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1696755527361
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1696765146406
+  login: 1696764944436
+money: '5555.0'
+last-account-name: NOVA
+lastlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -761.9195120031313
+  y: 64.0
+  z: 85.88772651357353
+  yaw: -170.850830078125
+  pitch: 69.89997100830078
+logoutlocation:
+  world: 7e727197-042c-446e-938f-acf91849c355
+  world-name: world_nether
+  x: 512.7046802882332
+  y: 68.0
+  z: -195.01875623331568
+  yaw: 77.8509292602539
+  pitch: 40.95016098022461
+homes:
+  home:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -807.557384686173
+    y: 65.0
+    z: 134.66701924531313
+    yaw: 14.092630386352539
+    pitch: 15.450031280517578

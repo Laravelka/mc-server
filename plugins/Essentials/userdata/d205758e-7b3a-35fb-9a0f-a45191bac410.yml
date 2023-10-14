@@ -1,0 +1,69 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.59.123.49
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1696761992830
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1696764299540
+  login: 1696764249525
+  kits:
+    firework: 1696699079213
+    notch: 1696699121748
+    dtools: 1696699171926
+    tools: 1696701596172
+    color: 1696702051757
+money: '59611.5'
+last-account-name: trepalZ
+lastlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -771.3279767588148
+  y: 73.0
+  z: 84.33907632609473
+  yaw: 177.74789428710938
+  pitch: 3.5435380935668945
+homes:
+  home:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -797.6999999880791
+    y: 72.0
+    z: 63.19553249563543
+    yaw: 125.48699951171875
+    pitch: 38.84483337402344
+  warden:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -14125.596759092865
+    y: -31.0
+    z: 3551.266763209404
+    yaw: 7.8597412109375
+    pitch: 19.940099716186523
+  popa:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -794.6594750833709
+    y: 72.0
+    z: 63.00141507574745
+    yaw: 176.90626525878906
+    pitch: 32.04667663574219
+logoutlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -14150.522228834465
+  y: -26.0
+  z: 3556.158000962992
+  yaw: 7.307699203491211
+  pitch: 55.060455322265625

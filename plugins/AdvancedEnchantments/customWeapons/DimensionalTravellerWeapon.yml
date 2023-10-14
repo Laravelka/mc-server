@@ -1,0 +1,45 @@
+# Advanced Sets Weapons
+
+# What set should be required in order to apply effects from this weapon?
+# Set to '' to not require a set
+requireSet: DimensionalTraveller
+
+# Currently supported are only melee weapons
+material: DIAMOND_AXE
+
+# Custom Model Data (for 1.13+ servers with custom item packs)
+# Set custom model data integer
+customModelData: 0
+
+# Item Flags
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html
+itemFlags: []
+#  - 'HIDE_POTION_EFFECTS' # An Example Item Flag
+
+# Weapon's name
+name: '&5&lРазделитель времени'
+
+# Weapon's lore
+lore:
+- '&7Мифический, легендарный волшебный топор'
+- '&7с невероятной силой'
+- '&7разрезать саму ткань времени.'
+- ''
+- '&5&lБОНУС НА ОРУЖИЕ ПУТЕШЕСТВЕННИКА'
+- '&5Наносит +10% урона всем врагам.'
+- '&7(Требуются все 4 предмета путешественника.)'
+
+# These enchants will be applied by default when giving out weapons
+# Advanced Enchantments are supported
+enchants:
+- lifesteal:%1-3%
+- sharpness:5
+- unbreaking:3
+
+# ** Enchantment effects are supported - view enchantments.yml to see all effects available for custom weapons
+events:
+  ATTACK:
+    chance: 100
+    effects:
+    - INCREASE_DAMAGE:10
+    cooldown: 0

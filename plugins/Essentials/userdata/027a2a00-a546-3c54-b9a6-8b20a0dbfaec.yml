@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 85.249.27.93
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1696714990751
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1696715005349
+  login: 1696714595348
+money: '8890.0'
+last-account-name: AishixD
+logoutlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -807.1896260379261
+  y: 65.0
+  z: 136.64271624598285
+  yaw: -75.13967895507812
+  pitch: 13.41076946258545
+lastlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -1413.8032467996409
+  y: -56.0
+  z: 821.6999999880791
+  yaw: 87.12384033203125
+  pitch: 18.01996421813965

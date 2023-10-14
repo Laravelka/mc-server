@@ -1,0 +1,218 @@
+# Use %p% to insert the plugins prefix.
+# All messages support HEX color codes on 1.16+. Format: {#FFFFFF}
+# Almost all messages support PlaceholderAPI.
+prefix: "&7[&9AdvancedEnchantments&7]&r "
+
+effects:
+  steal-money: "&6%attacker% &7украл &6%amount% &7у &6%victim%&7!"
+
+commands:
+  no-permission: "&cУ вас нет разрешения на это!"
+  offline-player: "&cЭтот игрок не в сети!"
+  enchantment-not-found: "&cЗачарование &c&n%enchant%&c не найдено."
+  invalid-amount: "&cНеверное количество. Должно быть от 1 до 64."
+  invalid-enchant: "&c%enchant% - неверное зачарование!"
+  invalid-level: "&cНеверный уровень зачарования! Используйте: %levels%"
+  invalid-usage: "&cИспользование: %usage%"
+  not-a-number: "&c%number% - это не число!"
+  not-holding-item: "&cВы должны держать предмет!"
+  enchantment-info:
+    invalid-usage: "&cНеверное использование! Правильное использование: %command% <зачарование>"
+    open-menu-message: "&7Информация о зачаровании &e%enchant%&7."
+  enchants:
+    open-menu-message: "&7Список всех зачарований..."
+  apply:
+    cooldown: "&cВы сможете использовать эту команду через %seconds% секунд."
+    no-args: "&cУкажите, кто должен быть затронут."
+    reapplied: "&aВаша броня была повторно применена."
+    reapplied-other: "&aБроня была повторно применена для %player%."
+    reapplied-for-all: "&aБроня была повторно применена для всех!"
+  withdrawsouls:
+    invalid-usage: "&cИспользование: /withdrawsouls <количество>"
+    less-than-one: "&cКоличество должно быть положительным."
+    invalid-item: "&cНеверный предмет."
+  aegive:
+    invalid-material: "&cНеверный материал. Пожалуйста, обратитесь к файлу 'materials.yml' для всех допустимых материалов."
+    invalid-item-flag: "&cНеверный ItemFlag! Вы можете выбрать из следующих: %itemflags%"
+    invalid-enchantment: "&cНеверное зачарование!"
+    success: "&aВыдал %amount%x %material% игроку %player%&a!"
+  gedit:
+    unknown-gkit: "&c%gkit% - недопустимый набор!"
+    edit:
+      invalid-usage: "&cИспользование: /gedit edit <набор>"
+    set-permission:
+      invalid-usage: "&cИспользование: /gedit setpermission <набор> <разрешение>"
+      success: "&eИзменил разрешение на использование набора &6%gkit%&e на &6%permission%"
+    reset:
+      invalid-usage: "&cИспользование: /gedit reset <набор> <игрок>"
+      success: "&6Набор %gkit% &6был сброшен для игрока &e%player%"
+    list: "&eНаборы: &6%gkits%"
+    setdelay:
+      invalid-usage: "&cИспользование: /gedit setdelay <набор> <задержка (в секундах)>"
+      invalid-delay: "&c%delay% - неверное целое число!"
+      success: "&eИзменил задержку набора &6%gkit%&e на &6%delay%"
+  main:
+    unknown-command: "&cНеправильное использование команды! Введите \"/ae\" для правильного использования."
+    setsouls:
+      invalid-usage: "&cНеверное использование: /ae setsouls <количество>"
+      invalid-item: "&cНеверный предмет."
+      success: "&cУстановил количество душ предмета на: %amount%"
+    unenchant:
+      invalid-usage: "&cНеверное использование: /ae unenchant <зачарование>"
+      invalid-enchant: "&c%enchant% - неверное зачарование!"
+      not-holding-item: "&cВы должны держать предмет!"
+      does-not-have-enchant: "&cЭтот предмет не имеет зачарования &4%enchant%&c!"
+      success: "&aУдалил зачарование %enchant%!"
+    zip:
+      zip-exists: "&cПожалуйста, попробуйте еще раз."
+      success: "&eСоздан архивный файл с данными плагина по пути %path%."
+      error: "&cПроизошла ошибка при создании архива! Проверьте консоль для получения дополнительной информации."
+    greset:
+      reset: "&aСбросил набор %gkit% для игрока %player%!"
+      reset-all: "&aСбросил все наборы для игрока %player%!"
+    claim:
+      invalid-usage: "&cВведите жетон для зачарования."
+    givegkit:
+      success: "&cНабор %gkit% был выдан игроку %player%"
+    giverandombook:
+      success: "&aВыдал игроку %player% %amount%x %group% книг!"
+    givebook:
+      success: "&aВыдал игроку %player% %amount%x %enchant% %level% книг!"
+    enchant:
+      added: "&aДобавлено зачарование %enchant%!"
+      upgraded: "&2Повышено зачарование %enchant% с уровня %previous-level% до %level%."
+      downgraded: "&2Понижено зачарование %enchant% с уровня %previous-level% до %level%."
+      removed: "&cУбрано зачарование %enchant% с предмета."
+    giveitem:
+      success: "&7Добавил %amount%x %item%&7 для игрока &b%player%"
+    givercbook:
+      success: "&aВыдал игроку %player% %amount%x %group% книг с правым кликом!"
+    give:
+      success: "&aУспешно выдал игроку %player% одну книгу %enchant% %level%!"
+    tinkereritem:
+      success: "&cВыдал %amount%x предметов кузнеца игроку %player%"
+    admin:
+      invalid-page: "&cНедопустимая страница"
+    info:
+      - "&eИнформация о зачаровании &6%enchant%&e:"
+      - "&6Описание&7: &e%description%"
+      - "&6Применяется к&7: &e%applies%"
+      - "&6Максимальный уровень&7: &e%max-level%"
+      
+    pastetypes: "&aСписок типов зачарований: %url%"
+    pasteenchants: "&aСписок зачарований: %url%"
+    open: "&aОткрыл %menu% для игрока %player%!"
+
+token:
+  success: "&2&lx &aУспешно загружен токен для зачарования &l%token%, перезагрузка..."
+
+interact:
+  main-hand-only: "&cВы можете сделать это только с помощью вашей основной руки!"
+
+enchanter:
+  re-buy: "&cПожалуйста, перекупите предмет у заклинателя."
+  disabled-in-world: "&cЗаклинатель отключен в этом мире."
+  full-inventory: "&cВаш инвентарь полон!"
+  examine-book: "&7Вы изучили книгу %group-color%%group-name%&7 и нашли %enchant-color% %level%"
+  unknown-payment-method: "&cНе удалось подтвердить метод оплаты %paymentType%, обратитесь к администратору."
+  successful-purchase: "&aПокупка успешна!"
+  cannot-afford:
+    - "&cУ вас недостаточно опыта для покупки."
+    - "&7Ваш опыт: %exp%"
+
+tinkerer:
+  trade-accepted: "&aТорг принят!"
+  non-tradeable-item:
+    - "&cМастер Тюнинга не хочет этот предмет!"
+    - "&7Он принимает только кастомно зачарованные предметы"
+    
+alchemist:
+  doesnt-accept: "&cАлхимик не принимает этот предмет!"
+  trade-cancelled: "&cСделка отменена."
+  cannot-afford: "&cУ вас недостаточно ресурсов для этой сделки!"
+  exceeds-max-level: "&cОбщий уровень ваших зачарований превышает максимальный уровень!"
+
+gkits:
+  no-permission: "&eУ вас нет разрешения на использование набора &e%gkit%&6."
+  cooldown: "&eВы не можете использовать этот набор, набор &6%gkit%&e на перезарядке &7(%cooldown%)"
+  used-kit: "&eВы использовали набор &6%gkit%."
+  missing-permission: "&cРазрешение для набора %gkit% недействительно или отсутствует"
+  unknown-gkit: "&cНабор %gkit% не существует!"
+  unknown-enchant: "&7Зачарование %enchant% не может быть распознано."
+
+heroic:
+  cannot-apply: "&cВы не можете применить кристаллический апгрейд к этому предмету."
+  upgrade-failed: "&cКристаллический апгрейд &nне удался&c!"
+
+orbs:
+  cannot-apply: "&cНельзя применить орб на этот предмет!"
+  failed: "&cОрб не сработал!"
+  incompatible: "&cНельзя применить орб меньшего уровня, чем доступное количество слотов!"
+
+sets:
+  commands:
+    unknown-command: "&cКоманда не найдена! Введите \"/asets\" для получения списка всех действительных команд."
+    invalid-usage: "&cНеверное использование! Пожалуйста, обратитесь к /asets для правильного использования."
+    invalid-set: "&cНабор недействителен."
+    invalid-set-piece: "&cНедопустимый кусок набора, вы можете использовать один из следующих: \n%set pieces%"
+    invalid-weapon: "&cОружие недействительно."
+    offline-player: "&cИгрок не в сети."
+    invalid-chances: "&cНеверные шансы."
+    list:
+      header: "&eСписок всех доступных Наборов &7[%size%]"
+      set: " &8>> &f%set%"
+    listweapons:
+      header: "&eСписок всех доступных Оружий &7[%size%]"
+      weapon: " &8>> &f%weapon%"
+    give:
+      success: "&eВыдал &f %set% &eнабор игроку &f %player%"
+    givepiece:
+      success: "&eВыдал &f%piece% &eиз &f%set% &eнабора игроку &f %player%"
+    weapon:
+      success: "&eВыдал &f %weapon% &eнабор игроку &f %player%"
+
+items:
+  randomization-scroll:
+    cannot-apply: "&cВы не можете применить случайную зачарование к этому!"
+    single-items-only: "&cВы можете использовать это только на одиночных предметах!"
+  black-scroll:
+    full-inventory: "&cВаш инвентарь полон!"
+    no-enchants: "&cУ этого предмета нет зачарований!"
+    invalid-enchant: "&cНельзя удалить зачарование, так как оно недопустимо!"
+    cannot-remove: "&cЗачарование %enchant% нельзя удалить!"
+  soul-tracker:
+    disabled: "&cДуши отключены на этом сервере!"
+    apply-successful: "&7Вы успешно применили &f&lОтслеживатель Душ &7к вашему предмету!"
+  magic-dust:
+    full-inventory: "&cВаш инвентарь полон!"
+    single-items-only: "&cВы можете использовать это только на одиночных предметах!"
+  white-scroll:
+    full-inventory: "&cВаш инвентарь полон!"
+    apply-successful: "&aБелый свиток был применен к вашему предмету!"
+    item-saved: "&aБелый свиток спас предмет!"
+
+combining:
+  already-max-level: "Это зачарование уже на максимальном уровне!"
+  success: "&aУспех! &7%enchant% теперь на уровне %level%!"
+  failure: "&cСлияние не удалось!"
+  something-went-wrong: "&cЧто-то пошло не так при слиянии."
+
+enchant-limitations:
+  cannot-be-modified: "&cЭтот предмет нельзя модифицировать!"
+
+applying:
+  not-applicable-with: "&cЗачарование &4%enchant1% &cнельзя применить вместе с &4%enchant2%&7 &cзачарованием!"
+  requires-enchant: "&cЗачарование &4%enchant1% &cтребует зачарование &4%enchant2%&7 &cдля применения!"
+  already-applied: "&cПредмет уже имеет это зачарование."
+  applied: "&aЗачарование было применено к вашему предмету."
+  max-level: "&cЭто зачарование уже на максимальном уровне!"
+  wrong-material: "&cЭто зачарование нельзя применить к этому предмету."
+
+slots:
+  limit-reached: "&cВы не можете применить это зачарование! Свободных слотов больше нет!"
+
+chances:
+  book-failed: "&cВаша книга провалилась, но предмет не был уничтожен!"
+
+destroy:
+  book-failed: "&cЗачарование не удалось!"

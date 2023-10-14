@@ -1,0 +1,66 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 185.228.135.219
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1696763336900
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1696763603539
+  login: 1696763070235
+  kits:
+    tools: 1696681131739
+    dtools: 1696682683598
+money: '7977.0'
+last-account-name: Gomen-nasai
+logoutlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -813.3025879373153
+  y: 65.0
+  z: 137.75673086465915
+  yaw: -146.40257263183594
+  pitch: 4.200046062469482
+lastlocation:
+  world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+  world-name: world
+  x: -762.0011470653328
+  y: 64.5
+  z: 87.79236711461631
+  yaw: 96.5997314453125
+  pitch: 26.25000762939453
+homes:
+  peshera:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -220.02969650986506
+    y: -4.0
+    z: 906.1261171181684
+    yaw: -27.251739501953125
+    pitch: 14.14064884185791
+  sklad:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -762.1550918474591
+    y: 64.0
+    z: 87.59675787681053
+    yaw: 97.791015625
+    pitch: 9.299927711486816
+  roma:
+    world: 63f23bc7-0dc0-43b0-926f-0f5850b069ac
+    world-name: world
+    x: -804.6999999880791
+    y: 65.0
+    z: 135.30000001192093
+    yaw: -102.00149536132812
+    pitch: 5.099987983703613

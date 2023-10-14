@@ -1,0 +1,44 @@
+# Advanced Sets Weapons
+
+# What set should be required in order to apply effects from this weapon?
+# Set to '' to not require a set
+requireSet: Phantom
+
+# Currently supported are only melee weapons
+material: DIAMOND_SWORD
+
+# Custom Model Data (for 1.13+ servers with custom item packs)
+# Set custom model data integer
+customModelData: 0
+
+# Item Flags
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html
+itemFlags: []
+#  - 'HIDE_POTION_EFFECTS' # An Example Item Flag
+
+# Weapon's name
+name: '&c&lПризрачная коса'
+
+# Weapon's lore
+lore:
+- '&7Жуткий клинок, предназначенный для'
+- '&7прорезать врагов.'
+- ''
+- '&c&lБОНУС НА ФАНТОМНОЕ ОРУЖИЕ'
+- '&cНаносит +10% урона всем врагам.'
+- '&7(Требуются все 4 фантомных предмета.)'
+
+# These enchants will be applied by default when giving out weapons
+# Advanced Enchantments are supported
+enchants:
+- sharpness:5
+- unbreaking:3
+
+# ** Enchantment effects are supported - view enchantments.yml to see all effects available for custom weapons
+events:
+  ATTACK:
+    chance: 100
+    effects:
+    - INCREASE_DAMAGE:10
+    cooldown: 0
+# wNK9h3yLAYxZM+E+/RMhXJUybTDe21IzOg3HmlxS3Mz76i3I1u7FL1LaHQg0aSPNti371bmvhIDtbPowJ3NtF0jijUDwHYB8XQpB+TPt3A0=
